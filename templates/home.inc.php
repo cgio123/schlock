@@ -1,5 +1,5 @@
 <?php
-
+include "templates/master.inc.php";
 function content(){
 ?>
 
@@ -14,11 +14,11 @@ function content(){
   			tempor incididunt ut labore et dolore magna aliqua. </p>
   			<button type="button" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-film"></span> Film Programme</button>
   			<button type="button" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-shopping-cart"></span> Book Tickets (Coming Soon)</button>
-
   			</div>
   			<div class="col-sm-6">
   				<img class="img-responsive" src="http://placekitten.com/700/400" alt="kitten image">
   			</div>
+  		</div>
   			<div class="row">
   				<div class="col-sm-4">
   					<h3 class="text-center">Best Wosrt Movie (2009)</h3>
@@ -66,7 +66,6 @@ function content(){
   					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   				</div>
   			</div>
-		</div>
 		
 <?php
 	}
