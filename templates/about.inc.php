@@ -1,8 +1,3 @@
-<?php
-include "templates/master.inc.php";
-function content(){
-?>
-
 		<div class="row">
 			<div class="col-xs-12">
 				<h1>Schlockoktoberfest <small>The Best Worst Movie Festival Ever!</small></h1>
@@ -20,7 +15,3 @@ function content(){
   			<button type="button" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-shopping-cart"></span> Book Tickets (Coming Soon)</button>
   			</div>
     </div>
-  			
-<?php
-  }
-?>
