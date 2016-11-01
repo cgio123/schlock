@@ -1,6 +1,5 @@
 <?php
 
-
 Class HomeView extends View{
 		
 	public function render(){
