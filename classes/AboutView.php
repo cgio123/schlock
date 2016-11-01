@@ -1,6 +1,7 @@
 <?php
 
-Class AboutView{
+
+Class AboutView extends View{
 	
 	public function render(){
 		$page = "about";

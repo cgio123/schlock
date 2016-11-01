@@ -21,14 +21,14 @@
 					]
 			];
 		}
-			require "classes/HomeView.php";
+			// require "classes/HomeView.php";
 			$view = new HomeView(compact('moviesuggest'));
 			$view->render();
 			
 			break;
 
 		case 'about':
-			require "classes/AboutView.php";
+			// require "classes/AboutView.php";
 			$view = new AboutView();
 			$view->render();
 
@@ -80,7 +80,7 @@
 			}
 
 				
-				require "classes/SuggesterEmailView.php";
+				// require "classes/SuggesterEmailView.php";
 				$view = new SuggesterEmailView(compact('moviesuggest'));
 				$view->render();
 				
@@ -89,7 +89,7 @@
 			break;
 
 			case 'moviesuggestsuccess':
-				require "classes/MovieSuggestSuccessView.php";
+				// require "classes/MovieSuggestSuccessView.php";
 				$view = new MovieSuggestSuccessView();
 				$view->render();
 				break;

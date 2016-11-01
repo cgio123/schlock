@@ -1,6 +1,7 @@
 <?php
 
-Class MovieSuggestSuccessView{
+
+Class MovieSuggestSuccessView extends View{
 	
 	public function render(){
 		$page = "moviesuggestsuccess";

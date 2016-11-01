@@ -1,13 +1,8 @@
 <?php
 use Mailgun\Mailgun;
 
-Class SuggesterEmailView{
 
-	public $data;
-
-	public function __construct($data){
-		$this->data = $data;
-	}
+Class SuggesterEmailView extends View{
 	
 	public function render(){
 		extract($this->data);
@@ -23,7 +18,7 @@ Class SuggesterEmailView{
 			$domain = "sandbox709c3852794c4baca4979bf825742fd0.mailgun.org";
 
 			// open up a buffer to store details of templates file.
-			
+
 			ob_start();
 
 			include $templateFile;
