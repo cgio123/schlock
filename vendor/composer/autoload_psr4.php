@@ -15,5 +15,5 @@ return array(
     'Http\\Client\\' => array($vendorDir . '/php-http/httplug/src'),
     'GuzzleHttp\\Psr7\\' => array($vendorDir . '/guzzlehttp/psr7/src'),
     'Clue\\StreamFilter\\' => array($vendorDir . '/clue/stream-filter/src'),
-    '' => array($baseDir . '/classes'),
+    'App\\' => array($baseDir . '/App'),
 );

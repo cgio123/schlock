@@ -1,4 +1,7 @@
 <?php
+
+namespace App\views;
+
 use Mailgun\Mailgun;
 
 

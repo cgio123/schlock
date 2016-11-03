@@ -1,5 +1,7 @@
 <?php
 
+namespace App\views;
+
 abstract Class View{
 
 	protected $data;

@@ -34,6 +34,10 @@ class ComposerStaticInit54da62bd44ce8b96aaa33c218553961c
         array (
             'Clue\\StreamFilter\\' => 18,
         ),
+        'A' => 
+        array (
+            'App\\' => 4,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -74,10 +78,10 @@ class ComposerStaticInit54da62bd44ce8b96aaa33c218553961c
         array (
             0 => __DIR__ . '/..' . '/clue/stream-filter/src',
         ),
-    );
-
-    public static $fallbackDirsPsr4 = array (
-        0 => __DIR__ . '/../..' . '/classes',
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/App',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -95,7 +99,6 @@ class ComposerStaticInit54da62bd44ce8b96aaa33c218553961c
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit54da62bd44ce8b96aaa33c218553961c::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit54da62bd44ce8b96aaa33c218553961c::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInit54da62bd44ce8b96aaa33c218553961c::$fallbackDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit54da62bd44ce8b96aaa33c218553961c::$prefixesPsr0;
 
         }, null, ClassLoader::class);

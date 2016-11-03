@@ -1,5 +1,6 @@
 <?php
 
+namespace App\views;
 
 Class MovieSuggestSuccessView extends View{
 	
@@ -13,5 +14,3 @@ Class MovieSuggestSuccessView extends View{
 		include "templates/moviesuggestsuccess.inc.php";
 	}
 }
-
-?>
